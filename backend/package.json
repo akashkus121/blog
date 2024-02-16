@@ -2,10 +2,14 @@
   "name": "backend",
   "version": "1.0.0",
   "description": "Blog Application",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "start": "node index.js",
-    "server": "nodemon index.js"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon server.js",
+    "start": "node server.js",
+    "build":"npm i",
+    "client": "npm start --prefix ./client",
+    "dev": "concurrently \"npm run server\" \"npm run frontend\""
   },
   "author": "",
   "license": "ISC",
@@ -18,5 +22,8 @@
     "mongodb": "4.1",
     "mongoose": "^6.7.2",
     "nodemon": "^2.0.20"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
   }
 }
