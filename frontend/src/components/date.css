@@ -1,0 +1,19 @@
+
+  .date{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: right;
+    letter-spacing: 3px;
+  }
+  
+  .time{
+    font-size: 20px;
+    display: flex;
+    font-weight: bold;
+    justify-content: right; 
+   align-items: right;
+    text-align: right;
+  }
+  
+
+        
