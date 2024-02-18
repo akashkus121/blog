@@ -4,8 +4,8 @@
   "description": "Blog Application",
   "main": "server.js",
   "scripts": {
-    "start": "node index.js",
-    "server": "nodemon index.js",
+    "start": "node serve.js",
+    "server": "nodemon serve.js",
     "build":"npm i"
   },
   "author": "",
