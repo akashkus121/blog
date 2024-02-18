@@ -4,12 +4,10 @@
   "description": "Blog Application",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "server": "nodemon server.js",
     "start": "node server.js",
-    "build":"npm i",
-    "client": "npm start --prefix ./client",
-    "dev": "concurrently \"npm run server\" \"npm run frontend\""
+    "dev": "nodemon server.js",
+    "build":"npm i"
+  
   },
   "author": "",
   "license": "ISC",
