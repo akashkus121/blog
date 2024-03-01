@@ -6,7 +6,7 @@ import { useNavigate } from "react-router-dom";
 import axios from 'axios';
 import './date.css'
 
-
+const baseurl="https://backend-iwc8.onrender.com"
 export default function Auth({ isSignup, setisSignup }) {
     const navigate = useNavigate();
     const dispatch = useDispatch();
@@ -33,7 +33,7 @@ export default function Auth({ isSignup, setisSignup }) {
     };
 
     const sendRequest = async (type = "signin") => {
-        const res = await axios.post(`http://localhost:5000/api/user/${type}`, {
+        const res = await axios.post(`${baseurl}/api/user/${type}`, {
             name: inputs.name,
             email: inputs.email,
             password: inputs.password

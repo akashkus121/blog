@@ -2,7 +2,7 @@
   "name": "blog-application",
   "version": "1.0.0",
   "description": "This is the **BLog Application** Web App developed using MERN Stack",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "start": "node backend/index",
     "server": "nodemon backend/index",

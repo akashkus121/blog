@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import axios from 'axios'
 import Blog from './Blog';
 
+
 export default function UserBlogs() {
   const [user, setUser] = useState()
   const id = localStorage.getItem('userId')
