@@ -88,8 +88,12 @@ export default function Auth({ isSignup, setisSignup }) {
                     </Typography>
 
                     {/* Display date and time */}
-                </Box>
-            </form>
+                    <div className='akash'>
+            <h3>Or Use</h3>
+            <h4>Email=as@gmail.com</h4>
+             <h4>password=123456</h4>
+            
+            </div>
             <div className="datetime">
                         <div className="date">
                             <span>{currentTime.toLocaleDateString()}</span>
@@ -98,6 +102,10 @@ export default function Auth({ isSignup, setisSignup }) {
                             <span>{currentTime.toLocaleTimeString()}</span>
                         </div>
                     </div>
+                    
+                </Box>
+            </form>
+            
         </div>
     );
 }

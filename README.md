@@ -6,13 +6,13 @@ I have used MongoDB Atlas as a Database
 
 *The user can perform CRUD operations and can see the blogs posted by others.*
 
-### **[View Demo](https://mern-blog-app-zzot.onrender.com)**
+### **[View Demo](https://660fb73e41e16c6a44f2c0b8--leafy-concha-1ddd4c.netlify.app/)**
 
 ## Demo Images
 
-![Demo Image 1](<frontend/src/assets/Project_Blog App Image 1.png>)
+![Demo Image 1](<frontend/src/assets/Annotation 2024-04-11 211155.png>)
 
-![Demo Image 2](<frontend/src/assets/Project_Blog App Image 2.png>)
+![Demo Image 2](<frontend/src/assets/Annotation 2024-04-11 211307.png>)
 
 
 ## Before Running  this application
