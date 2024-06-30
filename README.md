@@ -1,8 +1,11 @@
 # MERN-Blog-Application
 
-This is the **BLog Application** Web App developed using MERN Stack
+This project is a comprehensive blog application built using the MERN (MongoDB, Express.js, React, Node.js) stack. It includes a user login system, a showcase of the blog's appearance, and a step-by-step guide on how to create your own blog.
 
-I have used MongoDB Atlas as a Database
+Features
+1)User Login: Secure user authentication with password encryption.
+2)Showcase: A detailed look at the blog's design and functionality.
+3)Creation Guide: Instructions on how to set up and create your own blog using the MERN stack.
 
 *The user can perform CRUD operations and can see the blogs posted by others.*
 
