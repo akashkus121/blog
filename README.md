@@ -9,11 +9,11 @@ I have used MongoDB Atlas as a Database
 ### **[View Demo](https://660fb73e41e16c6a44f2c0b8--leafy-concha-1ddd4c.netlify.app/)**
 
 ## Demo Images
-
+1)This is the login Page
 ![Demo Image 1](<frontend/src/assets/Annotation 2024-04-11 211155.png>)
-
+2)Now After creating the blog it looks like this.
 ![Demo Image 2](<frontend/src/assets/Annotation 2024-04-11 211307.png>)
- 
+ 3)How to we can create the blog.
  ![Demo Image 3](<frontend/src/assets/Annotation 2024-04-11 212024.png>)
 
 
